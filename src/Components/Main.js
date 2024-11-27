@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Card from "./Card";
+import Cart from "./Cart";
 import axios from "axios";
 
 const Main = () => {
@@ -37,7 +37,7 @@ const Main = () => {
             </div>
 
             <div className="container">
-                <Card book={bookData} />
+                <Cart book={bookData} />
             </div>
         </>
     )
